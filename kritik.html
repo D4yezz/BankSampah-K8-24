@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>BankSampah-Formulir</title>
+    <link
+      href="src/assets/fontawesome-free-6.7.0-web/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/style/global.css" />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="container">
+      <header>
+        <nav class="navbar fixed-top navbar-expand-lg d-flex">
+          <div class="container-fluid">
+            <a class="logo" href="#">Bank<span>Sampah</span></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarTogglerDemo02"
+              aria-controls="navbarTogglerDemo02"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-gmbr">≡</span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html"
+                    >Beranda</a
+                  >
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Jenis Sampah
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="index.html#plastik"
+                        >Plastik</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="index.html#kertas"
+                        >Kertas</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="index.html#logam">Logam</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="index.html#botol">Botol</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="form.html"
+                    >Formulir</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#"
+                    >Kritik dan Saran</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link kontak" aria-current="page" href="#kontak"
+                    >Kontak Kami</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <!-- Konten -->
+      <section class="kritik">
+        <h1 class="jdl-kritik">Kritik dan saran</h1>
+        <div class="row .d-flex">
+          <div class="video-kritik col-12 col-lg-6">
+            <video loop autoplay muted>
+              <source src="src/assets/images/sampah.mp4" type="video/mp4" />
+              Browser anda tidak support tag video
+            </video>
+          </div>
+          <div class="container-kritik col-12 col-lg-6">
+            <form
+              name="kritik-saran"
+              class="kritik-form"
+              action="https://script.google.com/macros/s/AKfycbwwgkA8eADeH0NbM3huEaoH0iNeDCogF8-aweTIXh5IUdu35ImtQoZA8TwEgVPZwtLetA/exec"
+              id="kritik"
+            >
+              <div class="form-grup">
+                <label for="name">Nama</label>
+                <input
+                  type="text"
+                  name="nama"
+                  id="name"
+                  placeholder="Nama anda"
+                  required
+                />
+              </div>
+              <div class="form-grup">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Email anda"
+                  required
+                />
+              </div>
+
+              <div class="form-grup">
+                <label for="pesan">Kritik & Saran</label>
+                <textarea
+                  name="pesan"
+                  id="pesan"
+                  rows="5"
+                  placeholder="Kami siap menampung semua kritik dan saran anda"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn-kritik">Kirim Pesan</button>
+              <button
+                class="d-none btn-loading"
+                type="button"
+                disabled
+              >
+                <span
+                  class="spinner-border spinner-border-sm"
+                  aria-hidden="true"
+                ></span>
+                <span role="status">Loading...</span>
+              </button>
+            </form>
+          </div>
+        </div>
+        <div
+          class="alert alert-warning alert-dismissible fade show d-none"
+          role="alert"
+        >
+          <strong>Terimakasih!</strong> Pesan anda sudah kami terima.
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="alert"
+            aria-label="Close"
+          ></button>
+        </div>
+      </section>
+    </div>
+    <footer id="kontak">
+      <div class="container-footer row">
+        <div class="teks-footer col-lg-4 col-12">
+          <h2 class="jdl-footer">Bank<span>Sampah</span></h2>
+          <img src="src/assets/images/logo esemka.png" alt="" />
+        </div>
+        <div class="kontak col-lg-4 col-12">
+          <h2>Kontak Kami</h2>
+          <ul>
+            <li>
+              <p><b>WhatsApp : </b>+62889898981</p>
+            </li>
+            <li>
+              <p><b>Email : </b>banksampah@gmail.com</p>
+            </li>
+            <li>
+              <p>
+                <b>Alamat : </b>
+                Jl. Teluk Pacitan, Arjosari, Kec. Blimbing, Kota Malang, Jawa
+                Timur 65126
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="navigasi col-lg-4 col-12">
+          <h3>Navigasi</h3>
+          <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="index.html#jenis">Jenis Sampah</a></li>
+            <li><a href="form.html">Formulir</a></li>
+            <li><a href="#">Kritik dan Saran</a></li>
+            <li><a href="#kontak">Kontak Kami</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <!-- 👇 javascript 👇 -->
+  <script src="./src/js/index.js"></script>
+  <script src="bootstrap/js/bootstrap.bundle.js"></script>
+</html>

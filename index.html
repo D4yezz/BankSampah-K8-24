@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>BankSampah</title>
+    <link
+      href="src/assets/fontawesome-free-6.7.0-web/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/style/global.css" />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="container">
+      <header>
+        <nav class="navbar fixed-top navbar-expand-lg d-flex">
+          <div class="container-fluid">
+            <a class="logo" href="#">Bank<span>Sampah</span></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarTogglerDemo02"
+              aria-controls="navbarTogglerDemo02"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-gmbr">≡</span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Beranda</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Jenis Sampah
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#plastik">Plastik</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#kertas">Kertas</a></li>
+                    <li><a class="dropdown-item" href="#logam">Logam</a></li>
+                    <li><a class="dropdown-item" href="#botol">Botol</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="form.html"
+                    >Formulir</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="kritik.html"
+                    >Kritik dan Saran</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link kontak" aria-current="page" href="#kontak"
+                    >Kontak Kami</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <!-- Beranda -->
+      <main>
+        <section class="home">
+          <div class="row">
+            <div class="teks-home col-lg-6 col-12">
+              <h1>Selamat Datang di Bank Sampah <br />SMKN 8 Malang</h1>
+              <p>
+                Kami hadir untuk membantu Anda menjaga lingkungan sekaligus
+                memberikan manfaat ekonomi melalui pengelolaan sampah yang
+                bertanggung jawab. Di <b>BankSampah</b>,
+                kami menerima berbagai jenis sampah seperti plastik, kertas,
+                logam, dan botol. Dengan sistem pengolahan yang profesional,
+                sampah Anda akan didaur ulang menjadi barang yang bermanfaat.
+              </p>
+
+              <a href="form.html#jualsampah" class="btn-homee"
+                >Jual Sampah <i class="fa-solid fa-sack-dollar"></i
+              ></a>
+            </div>
+            <div class="gambar col-lg-6 col-12">
+              <img src="src/assets/images/homedua.svg" alt="" />
+            </div>
+          </div>
+          <img src="src/assets/images/blopatas.svg" class="bloop atas" alt="" />
+          <img src="src/assets/images/blopbawah.svg" class="bloop bwh" alt="" />
+          <img src="src/assets/images/blopbawah.svg" class="bloop big" alt="" />
+          <img
+            src="src/assets/images/blopbawah.svg"
+            class="bloop big-dua"
+            alt=""
+          />
+        </section>
+      </main>
+      <!-- Jenis Jenis -->
+      <section class="jenis" id="jenis">
+        <h1>Jenis-jenis Sampah yang Kami Terima</h1>
+        <div class="plastik sampah" id="plastik">
+          <h2>Plastik</h2>
+          <div class="card-group">
+            <div class="card">
+              <img
+                src="src/assets/images/kantongplastik.svg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Kantong Plastik</h5>
+                <p class="card-text">
+                  Bersihkan dahulu kantong plastik agar bersih. Tidak diterima
+                  jika kotor atau berminyak.
+                </p>
+                <div class="card-footer">
+                  <h6>Rp. 1.500/kg</h6>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="src/assets/images/gelas.svg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Gelas Plastik</h5>
+                <p class="card-text">
+                  Gelas plastik sekali pakai dari minuman ringan, bersih tanpa
+                  sisa cairan.
+                </p>
+                <div class="card-footer">
+                  <h6>Rp. 3.000/kg</h6>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="src/assets/images/kemasan.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Kemasan Makanan Ringan</h5>
+                <p class="card-text">
+                  Kemasan plastik dari makanan ringan seperti keripik, snack,
+                  dan lain-lain.
+                </p>
+                <div class="card-footer">
+                  <h6>Rp. 2.000/kg</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="plastik sampah" id="kertas">
+          <h2>Kertas</h2>
+          <div class="card-group">
+            <div class="card">
+              <img
+                src="src/assets/images/hvs.jpeg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Kertas HVS Bekas</h5>
+                <p class="card-text">
+                  Sampah ini diterima dalam kondisi tidak terlalu kotor, tanpa
+                  klip, staples, atau plastik pembungkus. Meski sudah digunakan,
+                  kertas HVS masih dapat diolah kembali menjadi kertas baru atau
+                  produk daur ulang lainnya.
+                </p>
+                <div class="card-footer">
+                  <h6>Rp. 2.500/kg</h6>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="src/assets/images/kardus.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Kardus Bekas</h5>
+                <p class="card-text">
+                  Kardus bekas yang kami terima harus dalam kondisi kering dan
+                  tidak terlalu rusak. Kardus merupakan bahan daur ulang yang
+                  sering dijadikan bahan baku untuk membuat karton atau produk
+                  kertas keras lainnya.
+                </p>
+                <div class="card-footer">
+                  <h6>Rp. 2.000/kg</h6>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="src/assets/images/koran.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Koran Bekas</h5>
+                <p class="card-text">
+                  Kami menerima koran bekas dalam kondisi bersih, tanpa sobekan
+                  yang berlebihan, dan tidak terlalu lusuh. Daur ulang koran
+                  biasanya menghasilkan produk seperti kertas kemasan atau bahan
+                  campuran untuk industri kertas.
+                </p>
+                <div class="card-footer">
+                  <h6>Rp. 2.000/kg</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="plastik sampah" id="logam">
+          <h2>Logam</h2>
+          <div class="card-group">
+            <div class="card">
+              <img
+                src="src/assets/images/kaleng.jpeg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Kaleng Minuman</h5>
+                <p class="card-text">
+                  Kami menerima kaleng dalam kondisi bersih tanpa sisa minuman
+                  di dalamnya dan tidak terlalu penyok. Aluminium dari kaleng
+                  ini dapat dilebur untuk digunakan kembali dalam berbagai
+                  industri seperti pembuatan kendaraan, pesawat, dan peralatan
+                  rumah tangga.
+                </p>
+                <div class="card-footer">
+                  <h6>Rp. 5.000/kg</h6>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="src/assets/images/besi.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Besi Tua</h5>
+                <p class="card-text">
+                  Besi tua biasanya terdiri dari baja karbon atau logam campuran
+                  lainnya. Kami menerima besi tua yang sudah dibersihkan dari
+                  bahan non-logam seperti plastik atau kayu. Besi tua yang
+                  didaur ulang biasanya digunakan untuk pembuatan bahan
+                  konstruksi baru.
+                </p>
+                <div class="card-footer">
+                  <h6>Rp. 3.500/kg</h6>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="src/assets/images/tutup.avif"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Tutup Botol Logam</h5>
+                <p class="card-text">
+                  Tutup botol logam sering ditemukan pada botol kaca, terutama
+                  untuk minuman seperti sirup, bir, atau soda. Tutup botol ini
+                  terbuat dari logam ringan dan dapat dilebur untuk digunakan
+                  kembali. Pastikan tutup botol dalam kondisi bersih dan tidak
+                  bercampur dengan bahan lain.
+                </p>
+                <div class="card-footer">
+                  <h6>Rp. 4.000/kg</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="plastik sampah" id="botol">
+          <h2>Botol</h2>
+          <div class="card-group">
+            <div class="card">
+              <img
+                src="src/assets/images/botolkaca.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Botol Kaca Bekas Minuman</h5>
+                <p class="card-text">
+                  Botol kaca memiliki nilai daur ulang yang tinggi karena dapat
+                  dilebur untuk dijadikan produk kaca baru. Kami menerima botol
+                  kaca dalam kondisi utuh, tanpa pecahan besar, dan dalam
+                  keadaan bersih tanpa sisa cairan.
+                </p>
+                <div class="card-footer">
+                  <h6>Rp. 3.000/kg</h6>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="src/assets/images/botoplastik.jpeg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Botol Plastik</h5>
+                <p class="card-text">
+                  Botol ini harus dalam kondisi bersih tanpa label atau tutup
+                  plastiknya. Plastik dari botol ini biasanya digunakan kembali
+                  untuk pembuatan barang-barang plastik baru seperti ember, pot
+                  bunga, atau kemasan lainnya.
+                </p>
+                <div class="card-footer">
+                  <h6>Rp. 2.000/kg</h6>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="src/assets/images/parfum.jpeg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Botol Parfum Kosong</h5>
+                <p class="card-text">
+                  Kami menerima botol parfum dalam kondisi bersih tanpa sisa
+                  cairan di dalamnya. Kaca dari botol parfum dapat dilebur untuk
+                  digunakan dalam industri kaca mewah atau produk kaca
+                  dekoratif.
+                </p>
+                <div class="card-footer">
+                  <h6>Rp. 6.000/kg</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer id="kontak">
+      <div class="container-footer row">
+        <div class="teks-footer col-lg-4 col-12">
+          <h2 class="jdl-footer">Bank<span>Sampah</span></h2>
+          <img src="src/assets/images/logo esemka.png" alt="" />
+        </div>
+        <div class="kontak col-lg-4 col-12">
+          <h2>Kontak Kami</h2>
+          <ul>
+            <li>
+              <p><b>Telepon : </b>+62889898981</p>
+            </li>
+            <li>
+              <p><b>Email : </b>banksampah@gmail.com</p>
+            </li>
+            <li>
+              <p>
+                <b>Alamat : </b>
+                Jl. Teluk Pacitan, Arjosari, Kec. Blimbing, Kota Malang, Jawa
+                Timur 65126
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="navigasi col-lg-4 col-12">
+          <h3>Navigasi</h3>
+          <ul>
+            <li><a href="#">Beranda</a></li>
+            <li><a href="#jenis">Jenis Sampah</a></li>
+            <li><a href="form.html">Formulir</a></li>
+            <li><a href="kritik.html">Kritik dan Saran</a></li>
+            <li><a href="#kontak">Kontak Kami</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <!-- 👇 javascript 👇 -->
+  <script src="./src/js/index.js"></script>
+  <script src="bootstrap/js/bootstrap.bundle.js"></script>
+</html>

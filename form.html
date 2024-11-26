@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>BankSampah-Formulir</title>
+    <link
+      href="src/assets/fontawesome-free-6.7.0-web/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/style/global.css" />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="container">
+      <header>
+        <nav class="navbar fixed-top navbar-expand-lg d-flex">
+          <div class="container-fluid">
+            <a class="logo" href="#">Bank<span>Sampah</span></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarTogglerDemo02"
+              aria-controls="navbarTogglerDemo02"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-gmbr">≡</span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html"
+                    >Beranda</a
+                  >
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Jenis Sampah
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="index.html#plastik"
+                        >Plastik</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="index.html#kertas"
+                        >Kertas</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="index.html#logam">Logam</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="index.html#botol">Botol</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Formulir</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="kritik.html"
+                    >Kritik dan Saran</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link kontak" aria-current="page" href="#kontak"
+                    >Kontak Kami</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <!-- Tabel -->
+      <div class="container-daftar">
+        <h1>Daftar Sampah</h1>
+        <table border="1" class="tbl-daftar">
+          <thead>
+            <tr>
+              <th>No</th>
+              <th>Jenis Sampah</th>
+              <th>Nama Sampah</th>
+              <th>Deskripsi</th>
+              <th>Harga (per kg)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Plastik</td>
+              <td>Kantong Plastik</td>
+              <td>Plastik belanja bekas, bersih dan tidak robek.</td>
+              <td>Rp. 1.500</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Plastik</td>
+              <td>Gelas Plastik</td>
+              <td>
+                Gelas plastik sekali pakai dari minuman ringan, bersih tanpa
+                sisa cairan.
+              </td>
+              <td>Rp. 3.000</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Plastik</td>
+              <td>Kemasan Makanan Ringan</td>
+              <td>
+                Kemasan plastik dari makanan ringan seperti keripik, snack, dan
+                lain-lain.
+              </td>
+              <td>Rp. 2.000</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Kertas</td>
+              <td>Kertas HVS Bekas</td>
+              <td>
+                Kertas bekas cetakan atau tulis, tidak terlalu kotor, tanpa
+                staples atau klip.
+              </td>
+              <td>Rp. 2.500</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>Kertas</td>
+              <td>Kardus Bekas</td>
+              <td>Kardus bekas kemasan produk, bersih dan kering.</td>
+              <td>Rp. 2.000</td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>Kertas</td>
+              <td>Koran Bekas</td>
+              <td>Koran lama, bersih dan tidak terlalu lusuh.</td>
+              <td>Rp. 2.000</td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>Logam</td>
+              <td>Kaleng Minuman</td>
+              <td>
+                Kaleng aluminium bekas minuman soda atau teh, bersih dan tidak
+                penyok parah.
+              </td>
+              <td>Rp. 5.000</td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>Logam</td>
+              <td>Besi Tua</td>
+              <td>
+                Potongan besi bekas alat rumah tangga atau barang konstruksi
+                kecil.
+              </td>
+              <td>Rp. 3.500</td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td>Logam</td>
+              <td>Tutup Botol Logam</td>
+              <td>Tutup botol logam dari botol kaca, bersih dan utuh.</td>
+              <td>Rp. 4.000</td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td>Botol</td>
+              <td>Botol Kaca Bekas Minuman</td>
+              <td>Botol kaca dari minuman, bersih tanpa pecahan besar.</td>
+              <td>Rp. 3.000</td>
+            </tr>
+            <tr>
+              <td>11</td>
+              <td>Botol</td>
+              <td>Botol Plastik</td>
+              <td>Botol plastik berbagai ukuran, bersih dan tanpa tutup.</td>
+              <td>Rp. 2.000</td>
+            </tr>
+            <tr>
+              <td>12</td>
+              <td>Botol</td>
+              <td>Botol Parfum Kosong</td>
+              <td>Botol kaca kecil bekas parfum, bersih tanpa sisa cairan.</td>
+              <td>Rp. 6.000</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="tbl-form" id="jualsampah">
+        <h1>Formulir</h1>
+        <h5>Masukkan Data Sampah Anda</h5>
+        <div class="d-flex justify-content-center bungkus-form">
+          <div class="form">
+            <div class="container-tblform">
+              <table class="tbl-input">
+                <tr>
+                  <td><label for="name">Nama :</label></td>
+                  <td>
+                    <input
+                      type="text"
+                      id="name"
+                      class="form-control"
+                      placeholder="Nama Anda"
+                      required
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td><label for="kelas">Kelas :</label></td>
+                  <td>
+                    <select name="kelas" id="kelas">
+                      <option value="" disabled selected>Kelas Anda</option>
+                      <option value="X">X</option>
+                      <option value="XI">XI</option>
+                      <option value="XII">XII</option>
+                      <option value="Lainnya">Lainnya</option>
+                    </select>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td><label for="jenis">Jenis Sampah :</label></td>
+                  <td>
+                    <select name="jenis" class="jenis">
+                      <option value="" disabled selected>
+                        Pilih jenis sampah
+                      </option>
+                      <option value="Kantong Plastik">Kantong Plastik</option>
+                      <option value="Gelas Plastik">Gelas Plastik</option>
+                      <option value="Kemasan Makanan Ringan">
+                        Kemasan Makanan Ringan
+                      </option>
+                      <option value="Kertas HVS Bekas">Kertas HVS Bekas</option>
+                      <option value="Kardus Bekas">Kardus Bekas</option>
+                      <option value="Koran Bekas">Koran Bekas</option>
+                      <option value="Kaleng Minuman">Kaleng Minuman</option>
+                      <option value="Besi Tua">Besi Tua</option>
+                      <option value="Tutup Botol Logam">
+                        Tutup Botol Logam
+                      </option>
+                      <option value="Botol Kaca Bekas Minuman">
+                        Botol Kaca Bekas Minuman
+                      </option>
+                      <option value="Botol Plastik">Botol Plastik</option>
+                      <option value="Botol Parfum Kosong">
+                        Botol Parfum Kosong
+                      </option>
+                    </select>
+                  </td>
+                </tr>
+                <tr>
+                  <td><label for="jumlah">Jumlah Sampah(per kg) :</label></td>
+                  <td><input type="number" class="jumlah" /></td>
+                </tr>
+
+                <tbody id="sampahInputs" class="inputSampahNew"></tbody>
+              </table>
+            </div>
+            <button type="submit" class="btn btn-simpan" onclick="addData()">
+              Simpan
+            </button>
+
+            <button
+              type="button"
+              class="btn"
+              onclick="addSampahForm()"
+              style="color: whitesmoke; margin-top: 10px"
+            >
+              Tambah Sampah
+            </button>
+          </div>
+        </div>
+        <div class="data">
+          <h3 class="text-center mb-5">Data Sampah</h3>
+          <table class="table table-striped" id="userTable">
+            <thead>
+              <tr>
+                <th>No</th>
+                <th>Nama</th>
+                <th>Kelas</th>
+                <th>Jenis Sampah</th>
+                <th>Jumlah Sampah(kg)</th>
+                <th>Total Harga</th>
+                <th>Aksi</th>
+              </tr>
+            </thead>
+            <tbody id="tableBody"></tbody>
+          </table>
+        </div>
+      </div>
+      <!-- Struk -->
+      <section id="struk" style="display: none" class="struk-section">
+        <div class="jdl-struk">
+          <h3>Struk</h3>
+        </div>
+        <div id="strukContent" class="struk-konten"></div>
+        <button id="btnSelesai" class="btn-selesai" onclick="hideStruk()">
+          Selesai
+        </button>
+      </section>
+    </div>
+
+    <footer id="kontak">
+      <div class="container-footer row">
+        <div class="teks-footer col-lg-4 col-12">
+          <h2 class="jdl-footer">Bank<span>Sampah</span></h2>
+          <img src="src/assets/images/logo esemka.png" alt="" />
+        </div>
+        <div class="kontak col-lg-4 col-12">
+          <h2>Kontak Kami</h2>
+          <ul>
+            <li>
+              <p><b>WhatsApp : </b>+62889898981</p>
+            </li>
+            <li>
+              <p><b>Email : </b>banksampah@gmail.com</p>
+            </li>
+            <li>
+              <p>
+                <b>Alamat : </b>
+                Jl. Teluk Pacitan, Arjosari, Kec. Blimbing, Kota Malang, Jawa
+                Timur 65126
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="navigasi col-lg-4 col-12">
+          <h3>Navigasi</h3>
+          <ul>
+            <li><a href="#">Beranda</a></li>
+            <li><a href="index.html#jenis">Jenis Sampah</a></li>
+            <li><a href="form.html">Formulir</a></li>
+            <li><a href="kritik.html">Kritik dan Saran</a></li>
+            <li><a href="#kontak">Kontak Kami</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="./src/js/index.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+  </body>
+  <!-- 👇 javascript 👇 -->
+</html>
