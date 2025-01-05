@@ -77,7 +77,7 @@ background-color: white;
 }
 
 .container-fluid .nav-link {
-  color: #06D001;
+  color: var(--warna-one);
 font-weight: 400;
 }
 
@@ -960,6 +960,8 @@ footer .teks-footer img {
     width: 80%;
 
   }
+
+  
 
   .teks-footer {
 
